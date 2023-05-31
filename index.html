@@ -7,10 +7,29 @@
   <meta name="keywords" content="دیکورات آلجبس, معلم جبس بورد, معلم جبس, معلم سیمنت بورد, دیکورات آلجبس">
   <meta name="author" content="معلم جبس بورد">
   <title>معلم جبس بورد</title>
+  
+  <style>
+    .flex-container {
+      display: flex;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+      margin: 5px;
+	  width: 40%;
+    }
+    
+    .column img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+  
 </head>
 <body>
   <header>
-    <h1>معلم جبس بورد</h1>
+    <h1 style="text-align:center">معلم جبس بورد</h1>
     <!-- Include your logo, navigation, or any other header elements here -->
   </header>
   
@@ -21,7 +40,20 @@
     </section>
     
     <section>
-      
+      <div class="flex-container">
+		<div class="column">
+		  <img src="img/1.jpeg" alt="Image 1">
+		  <!--<p>This is the content of column 1.</p>-->
+		</div>
+		<div class="column">
+		  <img src="img/2.jpeg" alt="Image 2">
+		  <!--<p>This is the content of column 1.</p>-->
+		</div>
+		<div class="column">
+		  <img src="img/3.jpeg" alt="Image 2">
+		  <!--<p>This is the content of column 1.</p>-->
+		</div>
+	  </div>
     </section>
     
     <!-- Add more sections as needed -->
@@ -29,7 +61,7 @@
   
   <footer>
     <!-- Include footer content such as contact information, links, etc. -->
-    <p>&copy; 2023 معلم جبس بورد. All rights reserved.</p>
+    <p style="text-align:center">&copy; 2023 معلم جبس بورد. All rights reserved.</p>
   </footer>
 </body>
 </html>
